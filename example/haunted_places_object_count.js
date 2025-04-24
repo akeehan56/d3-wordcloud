@@ -1,4 +1,5 @@
-[
+var words =
+  [
   {
     "text": "megalith",
     "size": 461
@@ -5507,4 +5508,4 @@
     "text": "power drill",
     "size": 1
   }
-]
+];
