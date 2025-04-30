@@ -71,7 +71,7 @@ const PI = Math.PI,
   numTicks = 10;
 
 
-d3.json('../data/viz5data.json', (error, data) => {
+d3.json('../example/viz5data.json', (error, data) => {
 
   let scale = d3.scaleLinear()
     .domain([0, d3.max(data, d => parseInt(d.counts)) * 1.1])
